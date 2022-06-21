@@ -75,40 +75,37 @@ void loop(){
                {  
                       motor_degree(500,180,0);
                }
-//   else if(ps3.R1)
-//               {  
-//                      rotation(500);
-//                       reset();
-//                   while(ps3.R1)
-//                  {
-//                    ps3_data();
-//                  }
-//                  motor1_value(0);
-//                  motor2_value(0);
-//                  motor3_value(0);
-//                  set_mpu();
-//               }
-//   else if(ps3.L1)
-//               {  
-//                       rotation(-500);
-//                        reset();
-//                   while(ps3.R1)
-//                  {
-//                    ps3_data();
-//                  }
-//                  motor1_value(0);
-//                  motor2_value(0);
-//                  motor3_value(0);
-//                  set_mpu();
-//               }
+  else if(ps3.R1)
+              {  
+                     rotation(500);
+                      reset();
+                  while(ps3.R1)
+                 {
+                   ps3_data();
+                 }
+                 motor1_value(0);
+                 motor2_value(0);
+                 motor3_value(0);
+                 set_mpu();
+              }
+  else if(ps3.L1)
+              {  
+                      rotation(-500);
+                       reset();
+                  while(ps3.R1)
+                 {
+                   ps3_data();
+                 }
+                 motor1_value(0);
+                 motor2_value(0);
+                 motor3_value(0);
+                 set_mpu();
+              }
    else
               {
                   motor1_value(z);
                   motor2_value(z);
                   motor3_value(z/2.8);
-//                   motor1_value(0);
-//                  motor2_value(0);
-//                  motor3_value(0);
-//                  k=500;
+
               }
 }
