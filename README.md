@@ -8,10 +8,12 @@ To achieve robustness in the three-wheels motion of the robot in a dynamic envir
  
 Rotary encoders(600 PPR) are mounted on dummy wheels to measure the distance and direction of the motion in two separate axes (X & Y). These feedbacks are used to calculate the speed that controls the robot to move from a specific coordinate to another. Speeds calculated according to the vectors are given to the DC base motors.
 
-Refer below link for Calculation, 
+Refer below link for Calculation,  
+
 https://drive.google.com/file/d/1C4hd8ts8ad3OGhdXZ-yxOw4AmtdHCDf0/view?usp=drivesdk.  
 
-Refer below link for video,
+Refer below link for video, 
+
 https://drive.google.com/drive/folders/1nhqXtcSqdH0lOfhl00C4aJQwhX-kikgi
 
  
