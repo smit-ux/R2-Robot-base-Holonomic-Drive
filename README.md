@@ -7,6 +7,7 @@ A 3 wheeled holonomic drive drives the robot according to the velocity which is 
 To achieve robustness in the three-wheels motion of the robot in a dynamic environment, the MPU6050 Gyro Sensor (5V DC, I2C Interface) is used to continuously detect the orientation of the robot and maintain the given orientation throughout its movement.   
  
 Rotary encoders(600 PPR) are mounted on dummy wheels to measure the distance and direction of the motion in two separate axes (X & Y). These feedbacks are used to calculate the speed that controls the robot to move from a specific coordinate to another. Speeds calculated according to the vectors are given to the DC base motors.
+
 Refer below link for Calculation, 
 https://drive.google.com/file/d/1C4hd8ts8ad3OGhdXZ-yxOw4AmtdHCDf0/view?usp=drivesdk.  
 
